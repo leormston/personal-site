@@ -2,6 +2,7 @@ import React from 'react';
 import TitleHeader from './components/TitleHeader';
 import NavBar from "../src/components/navbar";
 import Footer from './components/Footer';
+import Home from './pages/Home';
 import './App.css';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -18,8 +19,9 @@ const App = () => {
       <div className = "">
       
       
-      <TitleHeader />
+      
       <NavBar />
+      <Home />
 
 
       
