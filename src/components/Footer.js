@@ -6,19 +6,19 @@ const Footer = () => (
         <Container>
             <Row className="justify-content-md-center"> 
                 <Col xs={12} md="auto">
-                    <a>Home</a>
+                    <a href="/"> Home</a>
                 </Col>
                 <Col xs={12} md="auto">
-                    <a>About Me</a>
+                    <a href="/About">About Me</a>
                 </Col>
                 <Col xs={12} md="auto">
-                    <a>Portfolio</a>
+                    <a href="/Portfolio"> Portfolio</a>
                 </Col>
                 <Col xs={12} md="auto"> 
-                    <a>Contact Me</a>
+                    <a href="/Contact">Contact Me</a>
                 </Col>
                 <Col xs={12} md="auto">
-                    <a>Blog</a>
+                    <a href="/Blog">Blog</a>
                 </Col>
             </Row>
         </Container>

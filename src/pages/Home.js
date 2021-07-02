@@ -17,17 +17,25 @@ const Home = () => (
         
         <Container className="nav-buttons">
             <Row >
-                <Col className="Buttons"  md={4} lg = {3}> 
-                    <a href="#home">Education</a>
-                </Col>
-                <Col className="Buttons" md={4} lg = {3}>
-                    <a href="#home">Experience</a>
+                <Col className="Buttons" md={4} lg = {4}>
+                    <a className = "homeButtons" href="/About"> Personal Experience</a>
                 </Col >
-                <Col  className="Buttons" md={4} lg = {3}>
-                    <a href="#home">Contact / Socials</a>
+                <Col className="Buttons"  md={4} lg = {4}> 
+                    <a className = "homeButtons" href="/About#education">Education</a>
                 </Col>
-                <Col md={12} lg = {3}>
-                    <a href="#home">Personal Blog </a>
+                <Col  className="Buttons" md={4} lg = {4}>
+                    <a href="/Portfolio">My Porfolio</a>
+                </Col>
+
+                <Col  className="Buttons" md={4} lg = {4}>
+                    <a href="/Contact">Contact / Socials</a>
+                </Col>
+
+                <Col  className="Buttons" md={4} lg = {4}>
+                    <a href="/Blog">Personal Blog </a>
+                </Col>
+                <Col md={4} lg = {4}>
+                    <a href="/About">Can't Choose? </a>
                 </Col>
             </Row>
             <hr className="hrp"/>

@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 const NavBar = () => (
     <div>
             <Navbar fixed = "top" collapseOnSelect expand="lg" className="nav navbar-default" bg="#1f1f1f" variant="dark" >
-            <Navbar.Brand className = "header" href="#home"><h3>LOUIE ORMSTON</h3></Navbar.Brand>
+            <Navbar.Brand className = "header" href="/"><h3>LOUIE ORMSTON</h3></Navbar.Brand>
                 {/* <div className="header">
                     <text>LOUIE ORMSTON</text>
                 </div> */}
@@ -14,11 +14,11 @@ const NavBar = () => (
                 <Navbar.Collapse className="justify-content-end" id="responsive-navbar-nav">
                 <Nav > 
               
-                    <Nav.Link href="/planner">Home</Nav.Link>
-                    <Nav.Link href="/settings">About Me</Nav.Link>
-                    <Nav.Link href="/settings">Portfolio</Nav.Link>
-                    <Nav.Link href="/settings">Contact Me</Nav.Link>
-                    <Nav.Link href="/settings">Blog</Nav.Link>
+                    <Nav.Link href="/">Home</Nav.Link>
+                    <Nav.Link href="/About">About Me</Nav.Link>
+                    <Nav.Link href="/Portfolio">Portfolio</Nav.Link>
+                    <Nav.Link href="/Contact">Contact Me</Nav.Link>
+                    <Nav.Link href="/Blog">Blog</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
                 

@@ -3,8 +3,12 @@ import TitleHeader from './components/TitleHeader';
 import NavBar from "../src/components/navbar";
 import Footer from './components/Footer';
 import Home from './pages/Home';
+import About from './pages/About';
+import Portfolio from './pages/Portfolio';
+import Socials from './pages/Socials';
+import Blog from './pages/Blog';
 import './App.css';
-
+import {Route, BrowserRouter as Router, Switch} from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 <link
   rel="stylesheet"
@@ -16,16 +20,22 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 const App = () => {
   return (
     <div className="App background">
-      <div className = "">
-      
-      
-      
       <NavBar />
-      <Home />
 
-
+      <Router>
+        <Switch>
+        
+        <Route path="/About" component={About}/>
+        <Route path="/Portfolio" component={Portfolio}/>
+        <Route path="/Contact" component={Socials}/>
+        <Route path="/Blog" component={Blog}/>
+        <Route path="/" component={Home}/>
+        
+        </Switch>
+      </Router>
       
-      </div>
+
+
       <Footer />
     </div>
   )
