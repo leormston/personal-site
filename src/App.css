@@ -126,3 +126,38 @@ p {
 .qaboxes {
   margin-bottom: 30px;
 }
+
+.form-label {
+  border-bottom: solid 1px #fe019a;
+  width: 100%;
+}
+
+.form-input {
+  width: 100%;
+}
+
+.form-button {
+  width: 100%;
+  background-color: #d980f0;
+  color: white;
+  border-radius: 5px;
+  font-size: 1.8rem;
+}
+
+.form-button:hover {
+  border: solid 2px #fe019a;
+  transition-duration: 2.5s;
+  border-radius: 10px;
+}
+
+.border-pink {
+  border-bottom: solid 1px #fe019a;
+}
+
+.nostyle-link {
+  color: white;
+}
+
+.nostyle-link:hover {
+  color: #fe019a;
+}
