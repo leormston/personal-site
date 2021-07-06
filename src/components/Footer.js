@@ -6,19 +6,19 @@ const Footer = () => (
         <Container>
             <Row className="justify-content-md-center"> 
                 <Col xs={12} md="auto">
-                    <a href="/"> Home</a>
+                    <a className= "nostyle-link" href="/"> Home</a>
                 </Col>
                 <Col xs={12} md="auto">
-                    <a href="/About">About Me</a>
+                    <a className= "nostyle-link" href="/About">About Me</a>
                 </Col>
                 <Col xs={12} md="auto">
-                    <a href="/Portfolio"> Portfolio</a>
+                    <a className= "nostyle-link" href="/Portfolio"> Portfolio</a>
                 </Col>
                 <Col xs={12} md="auto"> 
-                    <a href="/Contact">Contact Me</a>
+                    <a className= "nostyle-link" href="/Contact">Contact Me</a>
                 </Col>
                 <Col xs={12} md="auto">
-                    <a href="/Blog">Blog</a>
+                    <a className= "nostyle-link" href="/Blog">Blog</a>
                 </Col>
             </Row>
         </Container>

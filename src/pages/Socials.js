@@ -3,7 +3,7 @@ import {Row, Col, Container} from 'react-bootstrap';
 import emailjs from 'emailjs-com';
 import{ init } from 'emailjs-com';
 import { faPhone, faEnvelope } from "@fortawesome/free-solid-svg-icons";
-import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedin, faGithubSquare } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 <script src="https://kit.fontawesome.com/2334c2b59b.js" crossorigin="anonymous"></script>
 
@@ -57,7 +57,7 @@ const Socials = () => (
             <br/>
             <h2 className="border-pink">Or get in touch another way</h2>
             <Row>
-                <Col>
+                <Col md={4} xs={12}>
                     <Row>
                         <Col xs={2}>
                             <FontAwesomeIcon icon={faPhone} />
@@ -88,13 +88,24 @@ const Socials = () => (
                         
                     </Row>
                     </a>
+                    <a className= "nostyle-link" href="https://github.com/leormston/personal-site" >
+                    <Row>
+                        
+                        <Col xs={2}>
+                            <FontAwesomeIcon icon={faGithubSquare} />
+                        </Col>
+                        <Col>
+                            <p>Check out my projects on Github</p>
+                        </Col>
+                        
+                    </Row>
+                    </a>
                 </Col>
-                <Col>
-                    <p>Email - l.e.ormston@gmail.com</p>
+                <Col md={8} xs={12}>
+                    <h3 className= "border-pink">Short Message From Myself</h3>
+                    <p>I appreciate everybody who takes the time to visit my site. I aim to respnod to all messages within 1 working day, and I hope you have a fantastic day. All the best, Louie.</p>
                 </Col>
-                <Col>
-                    <p> Instagram - l.e.ormston@gmail.com </p>
-                </Col>
+
             </Row>
 
             
