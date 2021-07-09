@@ -161,3 +161,17 @@ p {
 .nostyle-link:hover {
   color: #fe019a;
 }
+
+.portrait_photo {
+  width: 100%;
+  margin-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  opacity: 70%;
+  border-left: solid 3px #fe019a;
+  border-top: solid 3px #fe019a;
+}
+
+.center {
+  text-align: center;
+}
