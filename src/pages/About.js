@@ -46,6 +46,38 @@ const About = () => (
             <h1 className="border-pink center">Education</h1>
             <Row>
                 <Col md={4}className="mauto">
+                    <h2>Queen Mary University Of London</h2>
+                    <p>2019-2022 (Current)</p>
+                </Col>
+                <Col md={8}>
+                    <br />
+                        <p>This is where I'm currently, the third year of my Undergraduate studies in Computer Science. In my final year I am focusing on Neural Networks / Deep Learning,
+                             Security Engineering and Computer Graphics. My Project for my Final Year strays away from what my modules focus on as it ties into making a Plugin targeted at beginners
+                             making music using Digital Audio Workspace's.
+                        </p>
+                        <p>Predicted: First Class BSC</p>
+
+
+                </Col>
+            </Row>
+            <Row>
+                <Col md={4}className="mauto">
+                    <h2>CareerFoundry - Full Stack Web Development</h2>
+                    <p>2016-2018</p>
+                </Col>
+                <Col md={8}>
+                    <br />
+                        <p>During my gap year I decided to take this course with CareerFoundry as I wanted to expand my skillset within Web Development. I became confident in both Front-End and Back-End 
+                            Development. The framework I spent my time on during the 6 month period of this course was Ruby on Rails, which inspired me to become more proficient in other frameworks
+                            such as React.js.
+                        </p>
+                        <p>Achieved: Course Completed</p>
+
+
+                </Col>
+            </Row>
+            <Row>
+                <Col md={4}className="mauto">
                     <h2>Littleover Sixth Form</h2>
                     <p>2016-2018</p>
                 </Col>
@@ -58,6 +90,20 @@ const About = () => (
 
 
                 </Col>
+            </Row>
+            
+        </div>
+        <div id="skills">
+            <h1 className="border-pink center">What can Louie Do?</h1>
+            <Row>
+                <Col  className="mauto center">
+                    <p>I have learned many applicable technical skills through many experiences and my education. In terms of programming languages for writing traditional programs, 
+                        I am most confident within Java and Python as this is what has been taught to me through my A-Level Studies / University studies. Outside of this scope, I am comfortable using a variety
+                         of frameworks such as React.js, React and Ruby on Rails. 
+                        I am always willing to learn more, so I strive to increase my abilities every day, no problem is too big, nor too difficult as all problems are created with solutions to be developed.
+                    </p>
+                </Col>
+
             </Row>
             
         </div>
