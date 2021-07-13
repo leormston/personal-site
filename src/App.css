@@ -175,3 +175,23 @@ p {
 .center {
   text-align: center;
 }
+
+.shade-box {
+  background-color: #019afe;
+  border: solid #1f1f1f 5px;
+  border-radius: 20px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  padding-top: 10px;
+  padding-bottom: 35px;
+  opacity: 75%;
+}
+
+.shade-box:hover {
+  opacity: 100%;
+  transition: 1s;
+}
+
+.shade-box-green {
+  background-color: #6501fe !important;
+}

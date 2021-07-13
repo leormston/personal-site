@@ -20,7 +20,7 @@ const About = () => (
         </div>
         <div id="experience">
             <h1 className="border-pink center">Personal Experience</h1>
-            <Row>
+            <Row className="shade-box shade-box-green">
                 <Col md={4} className="mauto">
                     <h2>Phlashweb - Technical Lead</h2>
                     <p>2020 - Part Time</p>
@@ -44,7 +44,7 @@ const About = () => (
         </div>
         <div id="education">
             <h1 className="border-pink center">Education</h1>
-            <Row>
+            <Row className=" shade-box">
                 <Col md={4}className="mauto">
                     <h2>Queen Mary University Of London</h2>
                     <p>2019-2022 (Current)</p>
@@ -60,7 +60,7 @@ const About = () => (
 
                 </Col>
             </Row>
-            <Row>
+            <Row className="shade-box"> 
                 <Col md={4}className="mauto">
                     <h2>CareerFoundry - Full Stack Web Development</h2>
                     <p>2016-2018</p>
@@ -76,7 +76,7 @@ const About = () => (
 
                 </Col>
             </Row>
-            <Row>
+            <Row className="shade-box">
                 <Col md={4}className="mauto">
                     <h2>Littleover Sixth Form</h2>
                     <p>2016-2018</p>
