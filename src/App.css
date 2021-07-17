@@ -195,3 +195,7 @@ p {
 .shade-box-green {
   background-color: #6501fe !important;
 }
+
+.hidden {
+  display: none;
+}
