@@ -6,7 +6,8 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Portfolio from './pages/Portfolio';
 import Socials from './pages/Socials';
-import Blog from './pages/Blog';
+import Blogs from './pages/Blogs';
+
 import './App.css';
 import {Route, BrowserRouter as Router, Switch} from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -28,7 +29,7 @@ const App = () => {
         <Route path="/About" component={About}/>
         <Route path="/Portfolio" component={Portfolio}/>
         <Route path="/Contact" component={Socials}/>
-        <Route path="/Blog" component={Blog}/>
+        <Route path="/Blogs" component={Blogs}/>
         <Route path="/" component={Home}/>
         
         </Switch>

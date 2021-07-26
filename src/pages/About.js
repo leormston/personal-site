@@ -22,6 +22,21 @@ const About = () => (
             <h1 className="border-pink center">Personal Experience</h1>
             <Row className="shade-box shade-box-green">
                 <Col md={4} className="mauto">
+                    <h2>HyperLink - Software Engineer</h2>
+                    <p>2020 - Part Time</p>
+                </Col>
+                <Col md={8}>
+                    <br />
+                        <p>
+                            HyperLink is a society at Queen Mary focused on developing a physical and functional Hyperloop pod. We plan on 
+                            displaying the pod at European Hyperloop Week. My contribution to this society is that I am a part of the Software Engineering
+                            team. Jobs completed for this team include website development, board programming and design ideas.
+                            I intend on remaining in this position until I complete my education.
+                        </p>
+                </Col>
+            </Row>
+            <Row className="shade-box shade-box-green">
+                <Col md={4} className="mauto">
                     <h2>Phlashweb - Technical Lead</h2>
                     <p>2020 - Part Time</p>
                 </Col>
@@ -84,7 +99,7 @@ const About = () => (
                 <Col md={8}>
                     <br />
                         <p>This is the sixth form where I completed my A levels. Here I studied Physics, Economics and Computer Science. This is where my passion for programming originated, during my 
-                            second year coursework, where I developed a stock management system for a local company in my area.
+                            second-year coursework, where I developed a stock management system for a local company in my area.
                         </p>
                         <p>Achieved: Physics - B, Computer Science - B, Economics - B</p>
 

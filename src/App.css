@@ -1,17 +1,23 @@
+/*This is the main font used throughout the website */
 @import url("https://fonts.googleapis.com/css2?family=BenchNine:wght@300&display=swap");
+
 .App {
   height: 100%;
 }
+
+.body {
+  padding-top: 80px;
+}
+
 .background {
   background-color: #1f1f1f;
 }
 
+/*This is the formatting and colour for the logo of the website*/
 .header {
   background-color: #d980d6;
-
   color: white;
   font-family: "BenchNine", sans-serif;
-
   border-bottom: solid #fe019a 1px;
 }
 
@@ -45,6 +51,7 @@ p {
   margin-bottom: 0 !important;
 }
 
+/* These are the is the formatting for the horizontal rules throughout the page */
 .hrp {
   border-bottom: solid #fe019a 1px;
   padding-top: 10px;
@@ -66,9 +73,7 @@ p {
   height: 500px;
   object-fit: cover;
 }
-.body {
-  padding-top: 80px;
-}
+
 .banner {
   color: white;
   font-family: "BenchNine", sans-serif;
@@ -134,6 +139,7 @@ p {
 
 .form-input {
   width: 100%;
+  background-color: #f7e4f5;
 }
 
 .form-button {
@@ -177,25 +183,70 @@ p {
 }
 
 .shade-box {
-  background-color: #019afe;
+  background-color: #7a5977;
   border: solid #1f1f1f 5px;
   border-radius: 20px;
   margin-top: 25px;
   margin-bottom: 25px;
   padding-top: 10px;
   padding-bottom: 35px;
-  opacity: 75%;
+  opacity: 95%;
 }
 
+/*This is the styling for the bubbles behind the text on the portfolio and about page */
 .shade-box:hover {
   opacity: 100%;
   transition: 1s;
 }
 
 .shade-box-green {
-  background-color: #6501fe !important;
+  background-color: #66597a !important;
 }
 
-.hidden {
-  display: none;
+.icon {
+  color: white;
+  opacity: 75%;
+  margin: auto;
+  text-align: center;
+  font-size: 2.4rem;
+}
+
+/*Styling for the images on the portfolio page */
+.portrait_port {
+  height: 500px;
+}
+.landscape_port {
+  padding-top: 125px;
+  width: 100%;
+}
+.landscape_port_2 {
+  width: 100%;
+}
+
+.showcase {
+  height: 500px;
+  text-align: center;
+  margin: auto;
+}
+
+/*Applies a lil bit of padding u know */
+.lil-padding {
+  padding: 5px;
+}
+
+/*Styling for the not yet finished blog */
+.blog-mini:hover {
+  background-color: #404040;
+  transition: 1s;
+}
+
+.blog-mini-image {
+  margin: 5px;
+  width: 80%;
+}
+
+@media (max-width: 600px) {
+  .blog-mini {
+    text-align: center;
+  }
 }

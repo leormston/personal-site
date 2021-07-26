@@ -32,7 +32,7 @@ const Home = () => (
                 </Col>
 
                 <Col  className="Buttons" md={4} lg = {4}>
-                    <a href="/Blog">Personal Blog </a>
+                    <a href="/Blogs">Personal Blog </a>
                 </Col>
                 <Col md={4} lg = {4}>
                     <a href="/About">Can't Choose? </a>
@@ -56,16 +56,16 @@ const Home = () => (
         </Container>
         <Container className="qaboxes">
             <Row>
-                
+            <Col md={6} className="nav-buttons mauto">
+                        <h2 className="large-text">Which Technologies am I currently familiar with?</h2>
+                    </Col>
                 <Col md={6} className="nav-buttons mauto">
                         <p className= "medium-text">
                             In terms of programming langauges I am confident within using Python, Java and Javascript. I am capable within web frameworks also, such as Ruby on Rails and React.js.
                             API's and uses of databases such as SQL and Firebase are common within my work and I am able to apply these within projects that I also develop.
                         </p>
                 </Col>
-                <Col md={6} className="nav-buttons mauto">
-                        <h2 className="large-text">Which Technologies am I currently familiar with?</h2>
-                    </Col>
+                
             </Row>
             <hr className="hrp"/>
         </Container>
@@ -76,7 +76,7 @@ const Home = () => (
                     <hr className="hrp"/>
                 </Col>
                 <Col  className=" nav-buttons mauto Buttons " md={6} >
-                    <a href="#home" className="Buttons">Get in contact</a>
+                    <a href="/Contact" className="Buttons">Get in contact</a>
                 </Col>
             </Row>
         </Container>

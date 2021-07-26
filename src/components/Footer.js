@@ -18,7 +18,7 @@ const Footer = () => (
                     <a className= "nostyle-link" href="/Contact">Contact Me</a>
                 </Col>
                 <Col xs={12} md="auto">
-                    <a className= "nostyle-link" href="/Blog">Blog</a>
+                    <a className= "nostyle-link" href="/Blogs">Blogs</a>
                 </Col>
             </Row>
         </Container>
