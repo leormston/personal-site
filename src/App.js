@@ -11,6 +11,7 @@ import Blogs from './pages/Blogs';
 import './App.css';
 import {Route, BrowserRouter as Router, Switch} from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import ReactDOM from 'react-dom';
 <link
   rel="stylesheet"
   href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
@@ -19,8 +20,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 />
 //i love apples
 const App = () => {
+  document.title = "Louie Ormston";
   return (
     <div className="App background">
+      <title>Louie Ormston</title>
       <NavBar />
 
       <Router>
